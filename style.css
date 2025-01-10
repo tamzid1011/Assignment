@@ -207,3 +207,103 @@ main {
     border: none;
     border-radius: 8px;
 }
+
+.quatation{
+    background-color: var(--primaryColor);
+    padding:48px 24px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    background-position-y: 25px;
+}
+.quatation q{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #0e0e0ec4;
+}
+.quatation h3{
+    margin: 11px 0px 7px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #0e0e0ec4;
+}
+.quatation p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #0e0e0ec4;
+}
+/* Section 02 style end here  */
+
+
+/* Section 03 style start here  */
+
+.recent-title{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.recent-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #0e0e0ebb;
+    margin-bottom: 25px;
+}
+
+ /*! Three news contents have been styled using a single style .(style line 260-308)  */
+
+.news-card-one{
+    background-color: var(--primaryColor);
+    padding: 48px;
+    border-radius: 15px;
+    display: flex;
+    margin-bottom: 25px;
+}
+.news-img{
+    border-radius: 15px;
+}
+.news-content{
+    margin-left: 30px;
+}
+.news-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0e0e0ed0;
+    margin: 15px 0px;
+}
+.news-time{
+    margin: 10px 0px;
+    display: flex;
+    gap: 30px;
+}
+.news-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #0e0e0ebb;
+    margin-bottom: 25px;
+}
+.news-btn{
+    background-color:var(--thirdColor);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primaryColor);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.news-card-two{
+    background-color: var(--primaryColor);
+    padding: 48px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;            /*!important:  only this line has been added for card two. */
+    margin-bottom: 25px;
+}
