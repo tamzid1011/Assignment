@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --primaryColor:#FFFFFF;
+    --secColor:#C6E4D6 ;
+    --thirdColor:#006A50 ;
+}
+
+body{
+    font-family: "Fira Sans", serif;
+    background-color: #F1F1F3;
+    color: #0E0E0E;
+}
+
+/* Header style start here  */
+.nav-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+.nav-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--thirdColor);
+    border: 1px solid var(--thirdColor);
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+
+/* Hero aria style start here  */
+.hero-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 18px;
+    padding: 80px 0px;
+    border-radius: 10px;
+    background-color:var(--secColor);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.hero-sub-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #0e0e0e80;
+    margin-bottom: 16px;
+}
+.hero-title{
+    font-size: 56px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+.hero-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primaryColor);
+    background-color: var(--thirdColor);
+    padding: 18px 34px;
+    border: none;
+    border-radius: 8px;
+}
+/* Hero area style end here */
