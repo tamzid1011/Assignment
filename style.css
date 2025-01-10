@@ -73,3 +73,137 @@ body{
     border-radius: 8px;
 }
 /* Hero area style end here */
+
+
+/* main are style start here  */
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+.pillars-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.pillars-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 80px;
+}
+.card {
+    width: 350px;
+    background-color: var(--primaryColor);
+    padding: 24px;
+    border-radius: 10px;
+}
+.pillars-cards img {
+    padding-bottom: 20px;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.card-disc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #0e0e0ea1;
+}
+/* section 01 style end here  */
+
+
+/* section 02 style start here  */
+.vision-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.vision-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #0e0e0e8f;
+    margin-bottom: 25px;
+}
+.vision-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.digital-card{
+    background-color: #548ff53d;
+    padding: 30px;
+    border-radius: 10px;
+    width: 32%;
+}
+.digital-card img {
+    padding-bottom: 20px;
+}
+.card-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #0e0e0ea1;
+    margin-bottom: 20px;
+}
+.digital-card-btn{
+    background-color: #5490F5;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primaryColor);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.green-card{
+    background-color:#C6E4D6;
+    padding: 30px;
+    border-radius: 10px;
+    width: 32%;
+}
+.green-card img {
+    padding-bottom: 20px;
+}
+.green-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #0e0e0ea1;
+    margin-bottom: 20px;
+}
+.green-card-btn{
+    background-color: #09A15C;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primaryColor);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.modern-card{
+    background-color: #F7EBCF;
+    padding: 30px;
+    border-radius: 10px;
+    width: 32%;
+}
+.modern-card img {
+    padding-bottom: 20px;
+}
+.modern-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #0e0e0ea1;
+    margin-bottom: 20px;
+}
+.modern-card-btn{
+    background-color: #FFC239;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primaryColor);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
